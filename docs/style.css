@@ -1234,6 +1234,31 @@ header ul a:hover{
 
 }
 
+.education-section {
+    padding: 4rem 1rem;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.education-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.education-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
 
 
 
